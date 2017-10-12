@@ -48,11 +48,107 @@
             android:src="@drawable/testfoto"
             android:adjustViewBounds="true"
             android:scaleType="fitStart"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:src="@drawable/ic_arrow_upward_black_24dp"
+                android:layout_marginTop="3.5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 Points"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:layout_marginLeft="2dp"
+                />
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:src="@drawable/ic_date_range_black_24dp"
+                android:layout_marginTop="3.5dp"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14-10-2017"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:layout_marginLeft="2dp"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:background="@android:color/black"/>
         <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="10 Points"
-        android:textSize="14sp"
-        android:padding="5dp"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Onderwerp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:padding="7dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dieren"
+                android:textAllCaps="false"
+                android:background="@drawable/rounded_textview"
+                android:textColor="#ededed"
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginLeft="10dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Insect"
+                android:textAllCaps="false"
+                android:background="@drawable/rounded_textview"
+                android:textColor="#ededed"
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginLeft="10dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vlinder"
+                android:textAllCaps="false"
+                android:background="@drawable/rounded_textview"
+                android:textColor="#ededed"
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+
     </LinearLayout>
 </ScrollView>
